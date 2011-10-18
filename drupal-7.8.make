@@ -163,3 +163,9 @@ libraries[tinymce][destination] = "libraries"
 ; Themes
 projects[omega][type] = "theme"
 projects[omega][version] = "3.0"
+
+projects[itkore][type] = "theme"
+projects[itkore][download][type] = "git"
+projects[itkore][download][url] = "http://github.com/aakb/itkore.git"
+#projects[itkore][download][revision] = "v1.0"
+
