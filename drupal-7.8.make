@@ -23,7 +23,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
 
 projects[danishstemmer][subdir] = "contrib"
-projects[danishstemmer][version] = "1.0-rc1"
+projects[danishstemmer][version] = "1.0"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta8"
@@ -44,7 +44,7 @@ projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.0-beta7"
 
 projects[fb_social][subdir] = "contrib"
-projects[fb_social][version] = "1.0-beta9"
+projects[fb_social][version] = "2.0-alpha4"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-beta4"
@@ -59,7 +59,7 @@ projects[html5_tools][subdir] = "contrib"
 projects[html5_tools][version] = "1.1"
 
 projects[job_scheduler][subdir] = "contrib"
-projects[job_scheduler][version] = "1.0-beta3"
+projects[job_scheduler][version] = "2.0-alpha2"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
