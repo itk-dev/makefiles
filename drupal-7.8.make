@@ -5,7 +5,7 @@ projects[drupal][version] = "7.8"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-beta8"
+projects[apachesolr][version] = "1.0-beta10"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
@@ -71,7 +71,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
 
 projects[link][subdir] = "contrib"
-projects[link][version] = "1.0-beta1"
+projects[link][version] = "1.0"
 
 projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "1.2"
@@ -116,7 +116,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-rc2"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "1.3"
+projects[pathologic][version] = "1.4"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-beta3"
@@ -125,7 +125,7 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta3"
+projects[strongarm][version] = "2.0-beta4"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.0-beta6"
