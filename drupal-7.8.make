@@ -171,7 +171,6 @@ projects[itkore][download][url] = "git@github.com:aakb/itkore.git"
 
 ; Features (itkore)
 projects[itkore_features][type] = "module"
-projects[itkore_features][subdir] = "itkore_features"
 projects[itkore_features][download][type] = "git"
 projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.git"
 #projects[itkore_features][download][revision] = "0.1"
