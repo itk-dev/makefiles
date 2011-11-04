@@ -1,0 +1,48 @@
+diff --git a/sites/all/modules/views_infinite_scroll/views_plugin_pager_infinite_scroll.inc b/sites/all/modules/views_infinite_scroll/views_plugin_pager_infinite_scroll.inc
+index 9e46aa4..e8c684d 100644
+--- a/sites/all/modules/views_infinite_scroll/views_plugin_pager_infinite_scroll.inc
++++ b/sites/all/modules/views_infinite_scroll/views_plugin_pager_infinite_scroll.inc
+@@ -53,6 +53,13 @@ class views_plugin_pager_infinite_scroll extends views_plugin_pager_full {
+       '#default_value' => $this->options['infinite_scroll']['method'],
+     );
+ 
++    $form['infinite_scroll']['content_selector'] = array(
++      '#type' => 'textfield',
++      '#title' => t('Content selector'),
++      '#description' => t('The selector to use when appending content (e.g for lists: div.view-content .item-list > *). If not defined an autodetection will be used.'),
++      '#default_value' => $this->options['infinite_scroll']['content_selector'],
++    );
++
+     $form['infinite_scroll']['link_text'] = array(
+       '#type' => 'textfield',
+       '#title' => t('Link text'),
+@@ -69,24 +76,24 @@ class views_plugin_pager_infinite_scroll extends views_plugin_pager_full {
+   function render($input) {
+     global $base_url;
+     $style_plugin = $this->view->display_handler->default_display->options['style_plugin'];
+-    $content_selector = '';
++    $content_selector = $this->options['infinite_scroll']['content_selector'];
+     $items_selector = '';
+     $img_path = $base_url . '/' . drupal_get_path('module', 'views_infinite_scroll') . '/images/ajax-loader.gif';
+     switch ($this->view->plugin_name) {
+       case 'default':
+-        $content_selector = 'div.view-content';
++        $content_selector = empty($content_selector) ? 'div.view-content' : $content_selector;
+         $items_selector = '.views-row';
+         break;
+       case 'grid':
+-        $content_selector = 'div.view-content tbody';
++        $content_selector = empty($content_selector) ? 'div.view-content tbody' : $content_selector;
+         $items_selector = 'tr';
+         break;
+       case 'list':
+-        $content_selector = 'div.view-content .item-list > *';
++        $content_selector = empty($content_selector) ? 'div.view-content .item-list > *' : $content_selector;
+         $items_selector = '.views-row';
+         break;
+       case 'table':
+-        $content_selector = 'div.view-content tbody';
++        $content_selector = empty($content_selector) ? 'div.view-content tbody' : $content_selector;
+         $items_selector = 'tr';
+         break;
+     }
