@@ -13,14 +13,21 @@ projects[backup_migrate][version] = "2.2"
 projects[coder][subdir] = "contrib"
 projects[coder][version] = "1.0"
 
+projects[ckeditor_link][subdir] = "contrib"
+projects[ckeditor_link][version] = "2.1"
+
 projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta1"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0-beta2"
 
+projects[context_filter][subdir] = "contrib"
+projects[context_filter][version] = "1.x-dev"
+
 projects[context_inline_editor][subdir] = "contrib"
-projects[context_inline_editor][version] = "1.0-beta1"
+projects[context_inline_editor][version] = "1.x-dev"
+projects[context_inline_editor][patch][] = "http://drupal.org/files/filter_context_1327672-4.patch"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0-rc1"
@@ -54,6 +61,9 @@ projects[features][version] = "1.0-beta4"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha4"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.1"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3"
@@ -118,6 +128,9 @@ projects[omega_tools][version] = "3.0-rc3"
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0-alpha3"
 
+projects[page_title][subdir] = "contrib"
+projects[page_title][version] = "2.5"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.0-rc2"
 
@@ -142,6 +155,11 @@ projects[transliteration][version] = "3.0"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.0-rc1"
 
+;projects[views_infinite_scroll][subdir] = "contrib"
+;projects[views_infinite_scroll][version] = "1.x-dev"
+;projects[views_infinite_scroll][patch][] = "http://drupal.org/files/issues/load-more-content-by-click-event-1044144.patch"
+;projects[views_infinite_scroll][patch][] = "https://raw.github.com/aakb/makefiles/master/patchs/infinite_scroll_markup.patch"
+
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
 
@@ -161,10 +179,25 @@ projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
 
 ; Libraries
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
+
 libraries[tinymce][download][type] = "get"
 libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.4.2.zip"
 libraries[tinymce][directory_name] = "tinymce"
 libraries[tinymce][destination] = "libraries"
+
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/master/jquery.cycle.all.js"
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"
+
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
+libraries[jquery.cycle][directory_name] = "autopager"
+libraries[jquery.cycle][destination] = "libraries"
 
 ; Themes
 projects[omega][type] = "theme"
