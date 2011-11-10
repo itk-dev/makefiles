@@ -194,10 +194,10 @@ libraries[jquery.cycle][download][url] = "https://raw.github.com/malsup/cycle/ma
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
 
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
-libraries[jquery.cycle][directory_name] = "autopager"
-libraries[jquery.cycle][destination] = "libraries"
+libraries[autopager][download][type] = "get"
+libraries[autopager][download][url] = "http://jquery-autopager.googlecode.com/files/jquery.autopager-1.0.0.js"
+libraries[autopager][directory_name] = "autopager"
+libraries[autopager][destination] = "libraries"
 
 ; Themes
 projects[omega][type] = "theme"
