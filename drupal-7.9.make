@@ -132,7 +132,7 @@ projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0-rc2"
+projects[pathauto][version] = "1.0"
 
 projects[pathologic][subdir] = "contrib"
 projects[pathologic][version] = "1.4"
@@ -147,7 +147,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-beta4"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta6"
+projects[token][version] = "1.0-beta7"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
