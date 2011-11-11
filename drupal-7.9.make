@@ -158,7 +158,7 @@ projects[views][version] = "3.0-rc1"
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
 ;projects[views_infinite_scroll][patch][] = "http://drupal.org/files/issues/load-more-content-by-click-event-1044144.patch"
-;projects[views_infinite_scroll][patch][] = "https://raw.github.com/aakb/makefiles/master/patchs/infinite_scroll_markup.patch"
+;projects[views_infinite_scroll][patch][] = "http://raw.github.com/aakb/makefiles/master/patchs/infinite_scroll_markup.patch"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
@@ -177,6 +177,7 @@ projects[workbench_media][version] = "1.0"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][patch][] = "http://drupal.org/files/746524-143-D7.patch"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
