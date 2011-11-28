@@ -2,6 +2,7 @@ core = 7.x
 api = 2
 
 projects[drupal][version] = "7.9"
+projects[drupal][patch][] = "http://drupal.org/files/limit_menus-1354516-1.patch"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
@@ -153,7 +154,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc1"
+projects[views][version] = "3.0-rc3"
 
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
