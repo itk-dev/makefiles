@@ -2,6 +2,7 @@ core = 7.x
 api = 2
 
 projects[drupal][version] = "7.9"
+projects[drupal][patch][] = "http://drupal.org/files/limit_menus-1354516-1.patch"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
@@ -65,8 +66,14 @@ projects[feeds][version] = "2.0-alpha4"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-unstable2"
+
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3"
+
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.2"
 
 projects[html5_tools][subdir] = "contrib"
 projects[html5_tools][version] = "1.1"
@@ -120,7 +127,7 @@ projects[nanosoap][subdir] = "contrib"
 projects[nanosoap][version] = "1.0-beta3"
 
 projects[nodespotbox][subdir] = "contrib"
-projects[nodespotbox][version] = "1.3"
+projects[nodespotbox][version] = "1.4"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc3"
@@ -153,7 +160,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc1"
+projects[views][version] = "3.0-rc3"
 
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
@@ -207,11 +214,11 @@ projects[omega][version] = "3.0"
 projects[itkore][type] = "theme"
 projects[itkore][download][type] = "git"
 projects[itkore][download][url] = "git@github.com:aakb/itkore.git"
-;projects[itkore][download][revision] = "0.1"
+;projects[itkore][download][revision] = "v0.1"
 
 ; Features (itkore)
 projects[itkore_features][type] = "module"
 projects[itkore_features][download][type] = "git"
 projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.git"
-;projects[itkore_features][download][revision] = "0.1"
+;projects[itkore_features][download][revision] = "v0.1"
 
