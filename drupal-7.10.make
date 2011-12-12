@@ -37,7 +37,7 @@ projects[danishstemmer][subdir] = "contrib"
 projects[danishstemmer][version] = "1.0"
 
 projects[delta][subdir] = "contrib"
-projects[delta][version] = "3.0-beta8"
+projects[delta][version] = "3.0-beta9"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.2"
