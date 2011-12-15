@@ -1,4 +1,4 @@
-includes[] = https://raw.github.com/aakb/makefiles/master/drupal-7.9.make
+includes[] = https://raw.github.com/aakb/makefiles/master/drupal-7.10.make
 
 projects[formid.etek.dk][type] = "sites"
 projects[formid.etek.dk][download][type] = "git"
