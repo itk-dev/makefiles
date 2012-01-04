@@ -6,7 +6,7 @@ projects[drupal][patch][] = "http://drupal.org/files/limit_menus-1354516-1.patch
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-beta11"
+projects[apachesolr][version] = "1.0-beta13"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
@@ -52,13 +52,13 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc1"
 
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][version] = "1.0-beta8"
+projects[facetapi][version] = "1.0-rc1"
 
 projects[fb_social][subdir] = "contrib"
 projects[fb_social][version] = "2.0-alpha4"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta4"
+projects[features][version] = "1.0-beta5"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha4"
@@ -70,7 +70,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable2"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.3"
+projects[globalredirect][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
@@ -160,7 +160,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0-rc3"
+projects[views][version] = "3.0"
 
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
@@ -214,11 +214,11 @@ projects[omega][version] = "3.0"
 projects[itkore][type] = "theme"
 projects[itkore][download][type] = "git"
 projects[itkore][download][url] = "git@github.com:aakb/itkore.git"
-projects[itkore][download][revision] = "v0.3"
+projects[itkore][download][revision] = "v0.4"
 
 ; Features (itkore)
 projects[itkore_features][type] = "module"
 projects[itkore_features][download][type] = "git"
 projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.git"
-projects[itkore_features][download][revision] = "v0.3"
+projects[itkore_features][download][revision] = "v0.6"
 
