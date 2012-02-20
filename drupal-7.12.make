@@ -5,7 +5,7 @@ projects[drupal][version] = "7.12"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-beta13"
+projects[apachesolr][version] = "1.0-beta16"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
@@ -14,7 +14,7 @@ projects[coder][subdir] = "contrib"
 projects[coder][version] = "1.0"
 
 projects[ckeditor_link][subdir] = "contrib"
-projects[ckeditor_link][version] = "2.1"
+projects[ckeditor_link][version] = "2.2"
 
 projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta1"
@@ -51,13 +51,13 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc1"
 
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][version] = "1.0-rc1"
+projects[facetapi][version] = "1.0-rc2"
 
 projects[fb_social][subdir] = "contrib"
 projects[fb_social][version] = "2.0-alpha4"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta5"
+projects[features][version] = "1.0-beta6"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha4"
@@ -69,7 +69,7 @@ projects[file_entity][subdir] = "contrib"
 projects[file_entity][version] = "2.0-unstable2"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.4"
+projects[globalredirect][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
@@ -84,7 +84,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
 
 projects[l10n_update][subdir] = "contrib"
-projects[l10n_update][version] = "1.0-beta2"
+projects[l10n_update][version] = "1.0-beta3"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
@@ -93,7 +93,7 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
 projects[linkit][subdir] = "contrib"
-projects[linkit][version] = "1.3"
+projects[linkit][version] = "2.1"
 
 projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
@@ -102,7 +102,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.0-rc2"
+projects[media][version] = "1.0-rc3"
 
 projects[mediaelement][subdir] = "contrib"
 projects[mediaelement][version] = "1.1"
@@ -114,7 +114,10 @@ projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "1.0-alpha5"
 
 projects[menu_block][subdir] = "contrib"
-projects[menu_block][version] = "2.2"
+projects[menu_block][version] = "2.3"
+
+projects[metatag][subdir] = "contrib"
+projects[metatag][version] = "1.0-alpha4"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.6"
@@ -132,7 +135,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc3"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.0-alpha3"
+projects[panels][version] = "3.0"
 
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
@@ -150,16 +153,16 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta4"
+projects[strongarm][version] = "2.0-beta5"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta7"
+projects[token][version] = "1.0-rc1"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.0"
+projects[views][version] = "3.1"
 
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
