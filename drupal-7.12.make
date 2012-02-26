@@ -66,7 +66,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable2"
+projects[file_entity][version] = "2.0-unstable3"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.3"
