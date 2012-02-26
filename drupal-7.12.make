@@ -129,10 +129,10 @@ projects[nanosoap][subdir] = "contrib"
 projects[nanosoap][version] = "1.0-beta3"
 
 projects[nodespotbox][subdir] = "contrib"
-projects[nodespotbox][version] = "1.4"
+projects[nodespotbox][version] = "1.5"
 
 projects[omega_tools][subdir] = "contrib"
-projects[omega_tools][version] = "3.0-rc3"
+projects[omega_tools][version] = "3.0-rc4"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.0"
@@ -162,7 +162,7 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.1"
+projects[views][version] = "3.3"
 
 ;projects[views_infinite_scroll][subdir] = "contrib"
 ;projects[views_infinite_scroll][version] = "1.x-dev"
@@ -211,7 +211,7 @@ libraries[autopager][destination] = "libraries"
 
 ; Themes
 projects[omega][type] = "theme"
-projects[omega][version] = "3.0"
+projects[omega][version] = "3.1"
 
 projects[itkore][type] = "theme"
 projects[itkore][download][type] = "git"
