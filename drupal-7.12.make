@@ -102,7 +102,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.0-rc3"
+projects[media][version] = "1.0-rc2"
 
 projects[mediaelement][subdir] = "contrib"
 projects[mediaelement][version] = "1.1"
