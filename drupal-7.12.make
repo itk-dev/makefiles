@@ -219,11 +219,11 @@ projects[omega][version] = "3.1"
 projects[itkore][type] = "theme"
 projects[itkore][download][type] = "git"
 projects[itkore][download][url] = "git@github.com:aakb/itkore.git"
-projects[itkore][download][revision] = "v0.4"
+;projects[itkore][download][revision] = "v0.4"
 
 ; Features (itkore)
 projects[itkore_features][type] = "module"
 projects[itkore_features][download][type] = "git"
 projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.git"
-projects[itkore_features][download][revision] = "v0.6"
+;projects[itkore_features][download][revision] = "v0.6"
 
