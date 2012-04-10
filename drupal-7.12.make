@@ -5,7 +5,7 @@ projects[drupal][version] = "7.12"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-beta16"
+projects[apachesolr][version] = "1.0-beta19"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.2"
@@ -30,10 +30,13 @@ projects[context_inline_editor][version] = "1.x-dev"
 projects[context_inline_editor][patch][] = "http://drupal.org/files/filter_context_1327672-5.patch"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0-rc1"
+projects[ctools][version] = "1.0"
 
 projects[danishstemmer][subdir] = "contrib"
-projects[danishstemmer][version] = "1.0"
+projects[danishstemmer][version] = "1.1"
+
+projects[date][subdir] = "contrib"
+projects[date][version] = "2.3"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
@@ -51,13 +54,13 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc1"
 
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][version] = "1.0-rc2"
+projects[facetapi][version] = "1.0-rc4"
 
 projects[fb_social][subdir] = "contrib"
-projects[fb_social][version] = "2.0-alpha4"
+projects[fb_social][version] = "2.0-beta4"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta6"
+projects[features][version] = "1.0-rc1"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.0-alpha4"
@@ -96,7 +99,7 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
 projects[linkit][subdir] = "contrib"
-projects[linkit][version] = "2.1"
+projects[linkit][version] = "2.2"
 
 projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
@@ -105,19 +108,22 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.0-rc3"
+projects[media][version] = "1.0"
 
 projects[mediaelement][subdir] = "contrib"
 projects[mediaelement][version] = "1.1"
 
 projects[media_vimeo][subdir] = "contrib"
-projects[media_vimeo][version] = "1.0-beta4"
+projects[media_vimeo][version] = "1.0-beta5"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "1.0-alpha5"
+projects[media_youtube][version] = "1.0-beta3"
 
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
+
+projects[menu_position][subdir] = "contrib"
+projects[menu_position][version] = "1.1"
 
 projects[metatag][subdir] = "contrib"
 projects[metatag][version] = "1.0-alpha4"
@@ -129,7 +135,7 @@ projects[multiform][subdir] = "contrib"
 projects[multiform][version] = "1.0-beta2"
 
 projects[nanosoap][subdir] = "contrib"
-projects[nanosoap][version] = "1.0-beta3"
+projects[nanosoap][version] = "1.0"
 
 projects[nodespotbox][subdir] = "contrib"
 projects[nodespotbox][version] = "1.5"
@@ -138,7 +144,7 @@ projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
 
 projects[panels][subdir] = "contrib"
-projects[panels][version] = "3.0"
+projects[panels][version] = "3.2"
 
 projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
@@ -156,10 +162,10 @@ projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-beta5"
+projects[strongarm][version] = "2.0-rc1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-rc1"
+projects[token][version] = "1.0"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0"
@@ -173,10 +179,10 @@ projects[views][version] = "3.3"
 ;projects[views_infinite_scroll][patch][] = "http://raw.github.com/aakb/makefiles/master/patchs/infinite_scroll_markup.patch"
 
 projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "3.x-dev"
+projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.15"
+projects[webform][version] = "3.17"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
