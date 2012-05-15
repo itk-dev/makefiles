@@ -40,6 +40,7 @@ projects[date][version] = "2.5"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
+projects[delta][patch][] = http://drupal.org/files/i1512744-28.patch
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.2"
