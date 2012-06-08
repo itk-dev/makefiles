@@ -20,7 +20,7 @@ projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta1"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta2"
+projects[context][version] = "3.0-beta3"
 
 projects[context_filter][subdir] = "contrib"
 projects[context_filter][version] = "1.x-dev"
@@ -64,13 +64,13 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-rc2"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha4"
+projects[feeds][version] = "2.0-alpha5"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-unstable3"
+projects[file_entity][version] = "2.0-unstable5"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.x-dev"
@@ -85,7 +85,7 @@ projects[html5_tools][subdir] = "contrib"
 projects[html5_tools][version] = "1.1"
 
 projects[job_scheduler][subdir] = "contrib"
-projects[job_scheduler][version] = "2.0-alpha2"
+projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.2"
@@ -109,7 +109,7 @@ projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.4"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "1.1"
+projects[media][version] = "2.0-unstable5"
 
 projects[mediaelement][subdir] = "contrib"
 projects[mediaelement][version] = "1.1"
@@ -127,7 +127,7 @@ projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha4"
+projects[metatag][version] = "1.0-alpha6"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.6"
@@ -151,7 +151,7 @@ projects[page_title][subdir] = "contrib"
 projects[page_title][version] = "2.5"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.0"
+projects[pathauto][version] = "1.1"
 
 projects[pathologic][subdir] = "contrib"
 projects[pathologic][version] = "1.4"
@@ -166,10 +166,10 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0-rc1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0"
+projects[token][version] = "1.1"
 
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0"
+projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.3"
