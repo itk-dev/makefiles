@@ -20,7 +20,7 @@ projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta1"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta3"
+projects[context][version] = "3.0-beta4"
 
 projects[context_filter][subdir] = "contrib"
 projects[context_filter][version] = "1.x-dev"
@@ -30,13 +30,13 @@ projects[context_inline_editor][version] = "1.x-dev"
 projects[context_inline_editor][patch][] = "http://drupal.org/files/filter_context_1327672-5.patch"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.2"
 
 projects[danishstemmer][subdir] = "contrib"
 projects[danishstemmer][version] = "1.1"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.5"
+projects[date][version] = "2.6"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta9"
@@ -76,7 +76,7 @@ projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.x-dev"
 
 projects[globalredirect][subdir] = "contrib"
-projects[globalredirect][version] = "1.3"
+projects[globalredirect][version] = "1.5"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.2"
@@ -127,7 +127,7 @@ projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 
 projects[metatag][subdir] = "contrib"
-projects[metatag][version] = "1.0-alpha6"
+projects[metatag][version] = "1.0-alpha8"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
@@ -166,7 +166,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.1"
+projects[token][version] = "1.3"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
