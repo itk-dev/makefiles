@@ -5,10 +5,10 @@ projects[drupal][version] = "7.15"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-beta19"
+projects[apachesolr][version] = "1.0-rc4"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.3"
+projects[backup_migrate][version] = "2.4"
 
 projects[coder][subdir] = "contrib"
 projects[coder][version] = "1.0"
@@ -52,7 +52,7 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "2.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-rc1"
+projects[entity][version] = "1.0-rc3"
 
 projects[facetapi][subdir] = "contrib"
 projects[facetapi][version] = "1.0-rc4"
@@ -100,13 +100,13 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "1.0"
 
 projects[linkit][subdir] = "contrib"
-projects[linkit][version] = "2.2"
+projects[linkit][version] = "2.5"
 
 projects[location][subdir] = "contrib"
 projects[location][version] = "3.x-dev"
 
 projects[mailchimp][subdir] = "contrib"
-projects[mailchimp][version] = "2.4"
+projects[mailchimp][version] = "2.6"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable6"
@@ -139,7 +139,7 @@ projects[nanosoap][subdir] = "contrib"
 projects[nanosoap][version] = "1.0"
 
 projects[nodespotbox][subdir] = "contrib"
-projects[nodespotbox][version] = "1.6"
+projects[nodespotbox][version] = "1.7"
 
 projects[omega_tools][subdir] = "contrib"
 projects[omega_tools][version] = "3.0-rc4"
@@ -148,16 +148,16 @@ projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.3"
 
 projects[page_title][subdir] = "contrib"
-projects[page_title][version] = "2.5"
+projects[page_title][version] = "2.7"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "1.4"
+projects[pathologic][version] = "2.3"
 
 projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-beta4"
+projects[redirect][version] = "1.0-rc1"
 
 projects[scheduler][subdir] = "contrib"
 projects[scheduler][version] = "1.0"
@@ -183,7 +183,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.17"
+projects[webform][version] = "3.18"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.1"
