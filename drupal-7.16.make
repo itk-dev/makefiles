@@ -5,13 +5,13 @@ projects[drupal][version] = "7.16"
 
 ; Modules
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.0-rc4"
+projects[apachesolr][version] = "1.1"
 
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
 projects[coder][subdir] = "contrib"
-projects[coder][version] = "1.0"
+projects[coder][version] = "1.1"
 
 projects[ckeditor_link][subdir] = "contrib"
 projects[ckeditor_link][version] = "2.2"
@@ -39,11 +39,10 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
 
 projects[delta][subdir] = "contrib"
-projects[delta][version] = "3.0-beta9"
-projects[delta][patch][] = http://drupal.org/files/i1512744-28.patch
+projects[delta][version] = "3.0-beta11"
 
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.2"
+projects[devel][version] = "1.3"
 
 projects[devel_themer][subdir] = "contrib"
 projects[devel_themer][version] = "1.x-dev"
@@ -55,7 +54,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0-rc3"
 
 projects[facetapi][subdir] = "contrib"
-projects[facetapi][version] = "1.0-rc4"
+projects[facetapi][version] = "1.2"
 
 projects[fb_social][subdir] = "contrib"
 projects[fb_social][version] = "2.0-beta4"
@@ -64,7 +63,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "1.0"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha5"
+projects[feeds][version] = "2.0-alpha6"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
@@ -112,7 +111,7 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable6"
 
 projects[mediaelement][subdir] = "contrib"
-projects[mediaelement][version] = "1.1"
+projects[mediaelement][version] = "1.2"
 
 projects[media_vimeo][subdir] = "contrib"
 projects[media_vimeo][version] = "1.0-beta5"
@@ -133,7 +132,7 @@ projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.7"
 
 projects[multiform][subdir] = "contrib"
-projects[multiform][version] = "1.0-beta2"
+projects[multiform][version] = "1.0"
 
 projects[nanosoap][subdir] = "contrib"
 projects[nanosoap][version] = "1.0"
@@ -154,7 +153,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "2.3"
+projects[pathologic][version] = "2.4"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
@@ -166,7 +165,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.3"
+projects[token][version] = "1.4"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
@@ -195,7 +194,7 @@ projects[workbench_media][subdir] = "contrib"
 projects[workbench_media][version] = "1.1"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 projects[wysiwyg][patch][] = "http://drupal.org/files/746524-143-D7.patch"
 
 ; Libraries
