@@ -73,6 +73,7 @@ projects[file_entity][version] = "2.0-unstable6"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.x-dev"
+projects[flexslider][patch][] = "http://drupal.org/files/flexslider-updated_make_file_with_correct_version_flexslider_library-1736474-5.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.5"
