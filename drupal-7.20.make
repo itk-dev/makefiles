@@ -126,6 +126,9 @@ projects[media_youtube][version] = "2.0-rc1"
 projects[menu_block][subdir] = "contrib"
 projects[menu_block][version] = "2.3"
 
+projects[memcache][subdir] = "contrib"
+projects[memcache][version] = "1.0"
+
 projects[menu_position][subdir] = "contrib"
 projects[menu_position][version] = "1.1"
 
