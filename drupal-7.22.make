@@ -162,7 +162,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "2.10"
+projects[pathologic][version] = "2.11"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
@@ -214,7 +214,7 @@ projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1.1/ckeditor_4.0.1.1_full.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
