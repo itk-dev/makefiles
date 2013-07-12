@@ -7,10 +7,10 @@ api = 2
 projects[drupal][version] = "7.22"
 
 projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.2"
+projects[apachesolr][version] = "1.3"
 
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.5"
+projects[backup_migrate][version] = "2.7"
 
 projects[coder][subdir] = "contrib"
 projects[coder][version] = "2.0-beta2"
@@ -62,7 +62,7 @@ projects[fb_social][subdir] = "contrib"
 projects[fb_social][version] = "2.0-beta4"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta2"
+projects[features][version] = "2.0-rc1"
 
 projects[features_override][subdir] = "contrib"
 projects[features_override][version] = "2.0-beta2"
@@ -108,7 +108,7 @@ projects[linkit][subdir] = "contrib"
 projects[linkit][version] = "2.6"
 
 projects[location][subdir] = "contrib"
-projects[location][version] = "3.0-alpha9"
+projects[location][version] = "3.0-rc2"
 
 projects[mailchimp][subdir] = "contrib"
 projects[mailchimp][version] = "2.10"
@@ -186,7 +186,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.2"
