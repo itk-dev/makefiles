@@ -208,10 +208,6 @@ projects[itkore][type] = "theme"
 projects[itkore][download][type] = "git"
 projects[itkore][download][url] = "git@github.com:aakb/itkore.git"
 
-projects[itkore_features][type] = "module"
-projects[itkore_features][download][type] = "git"
-projects[itkore_features][download][url] = "git@github.com:aakb/itkore_features.git"
-
 ; Libraries
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.zip"
