@@ -13,7 +13,7 @@ projects[sp][download][type] = "git"
 projects[sp][download][url] = "https://github.com/aakb/sociale_platforme"
 projects[sp][branch] = "master"
 
-projects[drupal][patch][] = "https://drupal.org/files/1356276-D7-inheritable-profiles-multi_6.patch"
+projects[drupal][patch][] = "https://drupal.org/files/2067229-2-inheritable-profiles.patch"
 projects[libraries][patch][] = "https://drupal.org/files/base_profile-2081579.patch"
 
 ; Modules
