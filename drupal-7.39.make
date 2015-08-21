@@ -4,7 +4,7 @@ core = 7.x
 api = 2
 
 ; Projects
-projects[drupal][version] = "7.38"
+projects[drupal][version] = "7.39"
 
 projects[apachesolr][subdir] = "contrib"
 projects[apachesolr][version] = "1.6"
@@ -22,7 +22,7 @@ projects[content_access][subdir] = "contrib"
 projects[content_access][version] = "1.2-beta2"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.2"
+projects[context][version] = "3.6"
 
 projects[context_filter][subdir] = "contrib"
 projects[context_filter][version] = "1.x-dev"
@@ -32,7 +32,7 @@ projects[context_inline_editor][version] = "1.x-dev"
 projects[context_inline_editor][patch][0] = "http://drupal.org/files/filter_context_1327672-5.patch"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.9"
 
 projects[danishstemmer][subdir] = "contrib"
 projects[danishstemmer][version] = "1.1"
@@ -168,7 +168,7 @@ projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
 
 projects[scheduler][subdir] = "contrib"
-projects[scheduler][version] = "1.2"
+projects[scheduler][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -180,13 +180,13 @@ projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.1"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.7"
+projects[views][version] = "3.11"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.24"
 
 projects[workbench][subdir] = "contrib"
 projects[workbench][version] = "1.2"
